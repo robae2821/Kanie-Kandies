@@ -1,0 +1,85 @@
+div#message1 {
+    background-color:gray;
+    height: 75px;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+body {
+    height: 100vh;
+  }
+  p {
+
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-decoration: blue;
+}
+ul {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color:black;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+
+@media screen and (max-width:740px) and (min-width:340px){
+    body{
+      background-color: rgb(231, 223, 231);
+      background-image: url("image/54e1c51cecfb1bbcb3d07f4978112828.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-attachment: fixed;
+
+      margin: 25px 6%;
+    }
+   
+}
+/*break two*/
+
+@media screen and (max-width:1039px) and (min-width:741px) {
+  body{
+    background-color: rgb(207, 228, 218);
+    background-image: url("image/Document.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    margin: 25px 8%;
+  }
+  
+}
+/*break three*/
+@media screen and (max-width:1800px) and (min-width:1040px) {
+  body{
+    background-color: rgb(215, 218, 221);
+    background-image: url("image/home_dog.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    margin: 50px 10%;
+   
+
+    
+  }
+  
+  
+}
