@@ -7,7 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-   <script>
+   <script src="app.js">
+   function checkUserAge(age) {
+    if (age >= 18) {
+        location.assign("home.html");
+    } else {
+        console.log("user is under 18")
+        location.assign("https://www.youtube.com/watch?v=0d-SY36-_xY");
+    }
+}
+checkUserAge(age)
        
    </script> 
 </body>
