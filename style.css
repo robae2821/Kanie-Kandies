@@ -1,3 +1,74 @@
+.error {
+  font-size: 15px;
+  color: red; 
+  font-weight: bold;
+} 
+
+input:invalid {
+  border: 2px dashed rgb(253, 251, 251);
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+input:required {
+    background-color: rgb(255, 253, 253);
+}
+
+
+input:checked {
+    color: black;
+}
+
+input:read-only {
+    background-color: rgb(29, 4, 250);
+}
+
+
+form {
+  background-color: rgba(147, 180, 70, 0.568);
+  max-width: 580px;
+  margin: 70px auto;
+  padding: 16px;
+  border: 0.3px solid #eaeaea;
+  border-radius: 5%;
+  
+  
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+label{
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 #message1 {
     background-color:gray;
     height: 75px;
